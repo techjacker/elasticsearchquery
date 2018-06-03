@@ -6,7 +6,6 @@ test:
 
 deps:
 	@pip install -r requirements.txt
-	@pre-commit install
 
 deps-update:
 	@pip install -r requirements-to-freeze.txt --upgrade
