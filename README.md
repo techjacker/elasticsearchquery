@@ -13,9 +13,14 @@ Good for lambda functions setting up mappings for AWS elasticsearch deployments.
 #### 1. Set required environment variables
 ```Shell
 # .env
-ES_ENDPOINT=https://xxx.xxx.es.amazonaws.com
-ES_REGION=eu-west-1
+export ES_ENDPOINT=https://xxx.xxx.es.amazonaws.com
+export ES_REGION=eu-west-1
 ```
+
+```Shell
+$ source .env
+```
+
 
 #### 2. Create JSON file with your Elasticsearch query to be run
 ```Shell
