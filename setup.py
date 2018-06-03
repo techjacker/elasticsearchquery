@@ -5,7 +5,7 @@ with open('README.rst') as f:
 
 setup(
     name='elasticsearchquery',
-    version='0.1.0',
+    version='0.1.1',
     description='Runs queries against AWS elasticsearch deployments.',
     long_description=long_description,
     url='https://github.com/techjacker/elasticsearchquery',

@@ -1,4 +1,4 @@
-from elasticsearchquery.elasticsearchquery import ElasticSearchQuery
+from elasticsearchquery import ElasticSearchQuery
 import json
 import pytest
 
